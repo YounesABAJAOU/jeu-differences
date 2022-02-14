@@ -45,6 +45,10 @@ function opacity1(param){
     param.style.opacity="1";
 }
 
+function opacity0(param){
+    param.style.opacity="0";
+}
+
 barque.addEventListener("click", function (){
     opacity1(barque);
 });
@@ -73,4 +77,13 @@ terre.addEventListener("click", function (){
     opacity1(terre);
 });
 
-
+let reset = document.getElementById('btn-reset');
+reset.addEventListener("click", function(){
+    opacity0(barque);
+    opacity0(oiseau);
+    opacity0(pattedroite);
+    opacity0(pattegauche);
+    opacity0(rocher);
+    opacity0(tache);
+    opacity0(terre);
+});
