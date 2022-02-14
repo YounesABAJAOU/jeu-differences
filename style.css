@@ -20,3 +20,70 @@ main h2{
     color: green;
     font-size: 10px;
 }
+
+#img-modifiée{
+    position: relative;
+}
+
+#barque{
+    position: absolute;
+    opacity: 1;
+    height: 5%;
+    width: 7%;
+    top: 70.7%;
+    left: 12.8%;
+}
+
+#oiseau{
+    position: absolute;
+    opacity: 0;
+    height: 2.5%;
+    width: 2.5%;
+    top: 35%;
+    left: 70%;
+}
+
+#patte-droite{
+    position: absolute;
+    opacity: 0;
+    height: 2%;
+    width: 2%;
+    top: 75%;
+    left: 31%;
+}
+
+#patte-gauche{
+    position: absolute;
+    opacity: 0;
+    height: 2%;
+    width: 3%;
+    top: 81%;
+    left: 81%;
+}
+
+#rocher{
+    position: absolute;
+    opacity: 0;
+    height: 4%;
+    width: 4%;
+    top: 53%;
+    left: 46%;
+}
+
+#tache{
+    position: absolute;
+    opacity: 0;
+    height: 3%;
+    width: 3%;
+    top: 64%;
+    left: 39%;
+}
+
+#terre{
+    position: absolute;
+    opacity: 0;
+    height: 3%;
+    width: 4%;
+    top: 81%;
+    left: 6%;
+}
