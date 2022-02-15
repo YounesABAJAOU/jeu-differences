@@ -49,6 +49,10 @@ function opacity0(param){
     param.style.opacity="0";
 }
 
+function opacity03(param){
+    param.style.opacity="0.3";
+}
+
 barque.addEventListener("click", function (){
     opacity1(barque);
 });
@@ -86,4 +90,32 @@ reset.addEventListener("click", function(){
     opacity0(rocher);
     opacity0(tache);
     opacity0(terre);
+    alert("Aller on reset");
+});
+
+let soluce = document.getElementById('btn-soluce');
+soluce.addEventListener("click", function(){
+    opacity1(barque);
+    opacity1(oiseau);
+    opacity1(pattedroite);
+    opacity1(pattegauche);
+    opacity1(rocher);
+    opacity1(tache);
+    opacity1(terre);
+    alert("Pourtant c'est pas difficile à trouver...");
+});
+
+
+
+
+let clues = document.getElementById('btn-clues');
+clues.addEventListener("click", function(){
+    opacity03(barque);
+    opacity03(oiseau);
+    opacity03(pattedroite);
+    opacity03(pattegauche);
+    opacity03(rocher);
+    opacity03(tache);
+    opacity03(terre);
+    alert("Alors besoin d'indices ?");
 });

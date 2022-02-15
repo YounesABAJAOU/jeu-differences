@@ -99,9 +99,48 @@ main h2{
     cursor: pointer;
     box-shadow: 0 6px rgb(4, 80, 4);
     color: black;
+    font-size: 10px;
   }
   
 #btn-reset:hover{
     box-shadow: 0 4px rgb(4, 80, 4);
+    bottom: 6px;
+  }
+
+#btn-soluce{
+    height: 50px;
+    width: 50px;
+    background:red;
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    box-shadow: 0 6px rgb(133, 7, 7);
+    color: black;
+    font-size: 10px;
+  }
+  
+#btn-soluce:hover{
+    box-shadow: 0 4px rgb(133, 7, 7);
+    bottom: 6px;
+  }
+
+#btn-clues{
+    height: 50px;
+    width: 50px;
+    background:blue;
+    border-radius: 50%;
+    position: fixed;
+    right: 50%;
+    bottom: 10px;
+    cursor: pointer;
+    box-shadow: 0 6px rgb(4, 4, 114);
+    color: white;
+    font-size: 10px;
+  }
+  
+#btn-clues:hover{
+    box-shadow: 0 4px rgb(4, 4, 114);
     bottom: 6px;
   }
